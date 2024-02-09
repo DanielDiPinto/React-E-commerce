@@ -1,8 +1,14 @@
 import './Navbar.css'
 import { FaHeart, FaSearch, FaUser } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
+import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
+import { useState } from 'react';
+
 
 const Navbar = () => {
+
+  const [menuOpened, setMenuOpened] = useState(false)
+
   return (
     <header>
       <nav>
@@ -27,8 +33,26 @@ const Navbar = () => {
             <li><a href="#deal">deal</a></li>
             <li><a href="#testimonial">testimonial</a></li>
             <li><a href="#contact">contact</a></li>
-            
           </ul>
+        </div>
+        <div className='nm-nav'>
+          <div className="nm-container container">
+            <a href="" className="logo">Non lo so</a>
+            <ul className='nav-menu' style={{ transform: menuOpened && "translate(0%)"}}>
+            <li><a href="#home">home</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="#shop">shop</a></li>
+            <li><a href="#deal">deal</a></li>
+            <li><a href="#testimonial">testimonial</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <div className='menu-btn'>
+            {!menuOpened ?
+              <RiMenu3Fill size={30} onClick={() =>  setMenuOpened(true)}/> :
+              <RiCloseFill size={30} onClick={() =>  setMenuOpened(false)}/>
+              }
+          </div>
+          </div>
         </div>
       </nav>
     </header>

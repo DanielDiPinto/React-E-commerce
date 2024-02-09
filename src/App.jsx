@@ -1,11 +1,11 @@
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import Categories from './components/Categories/Categories'
-import Shop from './components/Shop/Shop'
-import Deal from './components/Deal/Deal'
-import Testimonial from './components/Testimonial/Testimonial'
-import Blog from './components/Blog/Blog'
-import Footer from './components/Footer/Footer'
+import Navbar from './sections/Navbar/Navbar'
+import Hero from './sections/Hero/Hero'
+import Categories from './sections/Categories/Categories'
+import Shop from './sections/Shop/Shop'
+import Deal from './sections/Deal/Deal'
+import Testimonial from './sections/Testimonial/Testimonial'
+import Blog from './sections/Blog/Blog'
+import Footer from './sections/Footer/Footer'
 
 const App = () => {
   return (

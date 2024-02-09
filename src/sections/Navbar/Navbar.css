@@ -69,6 +69,18 @@ a{
     padding: 2px 4px;
     border-radius: var(--border-radius-3);
 }
+.cart-icon .count{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: var(--border-radius-3);
+}
 
 nav hr{
     background: rgb(137, 137, 137);
@@ -117,4 +129,70 @@ nav hr{
     
     width: 100%;
 }
+.nm-nav{
+    display: none;
+}
 
+/* _______________RESPNSIVE/TABLET________________*/
+
+@media screen and (max-width: 1024px){
+    .tn-container{
+        display: none;
+    }
+    .bn-container{
+        display: none;
+    }
+    .navlist{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .nm-nav{
+        display: block;
+        width: 100%;
+        height: 5rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 0;
+        transition: var(--transition);
+    }
+    .nm-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .nm-container .logo{
+        z-index: 999;
+    }
+    .menu-btn{
+        position: relative;
+        z-index: 999;
+    }
+    .nav-menu{
+        position: absolute;
+        top: 3.5rem;
+        right: 0;
+        background: var(--color-primary);
+        height: 25rem;
+        width: 100%;
+        padding: 3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: var(--transition);
+        z-index: 999;
+        transform: translateX(-150%);
+    }
+    .nav-menu li{
+        text-transform: capitalize;
+        padding: 0.5rem 0;
+    }
+    .nav-menu li a{
+        color: var(--color-white);
+    }
+    .nav-menu li a:hover{
+        color: var(--color-dark);
+    }
+  }
