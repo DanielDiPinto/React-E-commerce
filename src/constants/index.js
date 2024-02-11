@@ -15,22 +15,23 @@ export const jacketsData = [
 
 export const categoryData = [
     {
-        imgURL: '/ctg1.png',
-        title: "shoes",
+      imgURL: '/ctg1.png',
+      title: "shoes",
     },
     {
-        imgURL: '/ctg2.png',
-        title: "dress",
+      imgURL: '/ctg2.png',
+      title: "dress",
     },
     {
-        imgURL: '/ctg3.png',
-        title: "cosmetics",
+      imgURL: '/ctg3.png',
+      title: "cosmetics",
     },
     {
-        imgURL: '/ctg4.png',
-        title: "watches",
+      imgURL: '/ctg4.png',
+      title: "watches",
     },
-];
+  ];
+  
 
 export const blogData = [
     {

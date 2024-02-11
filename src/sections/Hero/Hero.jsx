@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
             <div className="stat-box">
               <span>
-                <CountUp start={45600} end={9000} duration={3}/>
+                <CountUp start={400} end={9000} duration={3}/>
                 <p>+</p>
               </span>
               <span>Customers</span>
