@@ -3,6 +3,7 @@ import { FaHeart, FaSearch, FaUser } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -27,12 +28,12 @@ const Navbar = () => {
         <hr />
         <div className="tn-container container d-flex align-items-center justify-content-center">
           <ul className='navlist'>
-            <li><a href="#home">home</a></li>
+            <li><Link to={'/'}>home</Link></li>
             <li><a href="#categories">categories</a></li>
             <li><a href="#shop">shop</a></li>
             <li><a href="#deal">deal</a></li>
             <li><a href="#testimonial">testimonial</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><Link to={'/contac'}>contact</Link></li>
           </ul>
         </div>
         <div className='nm-nav'>
