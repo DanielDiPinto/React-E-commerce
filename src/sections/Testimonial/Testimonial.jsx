@@ -10,7 +10,7 @@ function Testimonial() {
       <div className="testimonial-container container">
         <div className="testimonial-card">
           <img src="../../../public/cstmr1.jpg" alt="" />
-          <h4>Angela Rossi</h4>
+          <h4>Geolier</h4>
           <h5>CEO & Founder </h5>
           <div className="quotes">
             <RiDoubleQuotesL/>
@@ -20,7 +20,7 @@ function Testimonial() {
        
         <div className="testimonial-card">
           <img src="../../../public/cstmr2.jpg" alt="" />
-          <h4>Angela Rossi</h4>
+          <h4>Angelina Mango</h4>
           <h5>CEO & Founder </h5>
           <div className="quotes">
             <RiDoubleQuotesL/>

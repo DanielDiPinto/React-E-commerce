@@ -1,11 +1,11 @@
 export const jacketsData = [
     {
-        thumbnail: "/thumbnailjacket1.png",
+        thumbnail: "../../public/thumbnailjacket1 .png",
         jacket: "/jacket1.png",
     },
     {
-        thumbnail: "/thumbnailjacket2.png",
-        jacket: "/jacket2.png",
+        thumbnail: "../../public/thumbnailjacket2.jpg",
+        jacket: "../../public/jacket2.jpg",
     },
     {
         thumbnail: "/thumbnailjacket3.png",
